@@ -1,0 +1,3 @@
+[submodule "Submodules/SomeLibrary"]
+	path = Submodules/SomeLibrary
+	url = https://github.com/isavynskyi/SomeLibrary
