@@ -13,6 +13,7 @@
 		3712B74D2145A37F00C07313 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3712B74C2145A37F00C07313 /* Assets.xcassets */; };
 		3712B7502145A37F00C07313 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3712B74E2145A37F00C07313 /* LaunchScreen.storyboard */; };
 		3712B75B2145A37F00C07313 /* PlaygroundTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3712B75A2145A37F00C07313 /* PlaygroundTests.swift */; };
+		3739EC042145B011004C302D /* SLViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3739EC032145B011004C302D /* SLViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		3712B7562145A37F00C07313 /* PlaygroundTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlaygroundTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3712B75A2145A37F00C07313 /* PlaygroundTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaygroundTests.swift; sourceTree = "<group>"; };
 		3712B75C2145A37F00C07313 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3739EC032145B011004C302D /* SLViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SLViewController.swift; path = Submodules/SomeLibrary/SomeLibrary/SLViewController.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 			children = (
 				3712B7452145A37E00C07313 /* AppDelegate.swift */,
 				3712B7472145A37E00C07313 /* ViewController.swift */,
+				3739EC032145B011004C302D /* SLViewController.swift */,
 				3712B7492145A37E00C07313 /* Main.storyboard */,
 				3712B74C2145A37F00C07313 /* Assets.xcassets */,
 				3712B74E2145A37F00C07313 /* LaunchScreen.storyboard */,
@@ -197,6 +200,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3739EC042145B011004C302D /* SLViewController.swift in Sources */,
 				3712B7482145A37E00C07313 /* ViewController.swift in Sources */,
 				3712B7462145A37E00C07313 /* AppDelegate.swift in Sources */,
 			);
